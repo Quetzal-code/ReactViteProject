@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 // const Button = styled.button``
 
-const Button = styled.button<{ $primary?: boolean; }>`
+const Button = styled.button<{ $primary: boolean }>`
   background: transparent;
   border-radius: 3px;
   border: 2px solid #BF4F74;
